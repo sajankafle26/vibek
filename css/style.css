@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul 
+{
+    list-style: none;
+}
+body 
+{
+    background: #979797;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.page
+{
+    max-width: 940px;
+    background: #fff;
+    margin: 0 auto;
+}
+.logo
+{
+    float: left;
+}
+.info
+{
+    float: right;
+    text-align: right;
+    padding: 10px;
+}
+.cc
+{
+    clear: both;
+}
+header 
+{
+    border-bottom: 10px solid #D7D7D7;
+}
+.content
+{
+    padding: 10px;
+    font-size: 14px;
+    line-height: 22px;
+}
+.left
+{
+    width: 70%;
+    float: left;
+    border-right: 1px dotted #000;
+}
+.right 
+{
+    width: 25%;
+    float: right;
+}
+footer
+{
+    background: #044470;
+    color: #fff;
+    padding: 3px;
+}
+.fleft 
+{
+    float: left;
+}
+.fright 
+{
+    float: right;
+}
+nav ul {
+    padding-top: 13px;
+}
+nav ul li 
+{
+    display: inline;
+}
+nav ul li a 
+{
+    background: #044470;
+    color: #fff;
+    text-decoration: none;
+    padding: 4px 6px;
+}
+.right ul li a 
+{
+    text-decoration: none;
+    color: #044470;
+}
+.right ul li a:hover 
+{
+    color: red;
+}
+.pt 
+{
+    padding-top: 20px;
+}
+.active a 
+{
+    background: #D7D7D7;
+    color: red;
+}
+
+@media(max-width: 768px)
+{
+    .fleft, .fright{ float: none;}
+    .left, .right{ width: 100%;}
+    .banner img{ width: 100%;}
+}
